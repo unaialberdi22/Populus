@@ -191,11 +191,11 @@ The goal is to partially automate the creation and updating of georeferenced inv
 
 ### Frontend
 
-* React
+* React-Vite Typescript
 
 ### Backend
 
-* Python
+* Python FastAPI
 
 ### Database
 
