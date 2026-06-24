@@ -37,6 +37,27 @@ This typically results in:
 
 Izarbide centralizes asset information within an interactive map that acts as a digital representation of the physical environment.
 
+The platform is designed around a flexible and scalable asset management architecture, allowing it to adapt to different environments, industries, and operational needs.
+
+Instead of being tied to a specific type of infrastructure, Izarbide provides a generic framework where any physical element can be represented as a georeferenced asset with its own properties, status, history, and maintenance workflow.
+
+The objective is to create a reusable foundation capable of generating Digital Twins for different real-world environments.
+
+For the initial development stage, three different scenarios are being explored to demonstrate the adaptability of the platform:
+
+- **Urban Environment:** Management of street furniture and public infrastructure.
+- **Airport Infrastructure:** Representation of signage, operational elements, and maintenance assets.
+- **Natural Environment:** Monitoring of biological and environmental assets.
+
+However, the same architecture can be extended to other domains, such as:
+
+- Railway infrastructure.
+- Motorsport circuits.
+- Industrial facilities.
+- Smart city applications.
+- Large-scale facilities.
+- Any environment requiring asset location, monitoring, and maintenance management.
+
 The platform enables users to know at any time:
 
 * Which assets exist.
@@ -44,6 +65,8 @@ The platform enables users to know at any time:
 * Their current condition.
 * Which defects or incidents affect them.
 * Which maintenance tasks are pending or in progress.
+
+By combining geographic information, asset lifecycle management, and operational workflows, Izarbide provides a reusable foundation for creating Digital Twins of real-world environments.
 
 ---
 
@@ -129,7 +152,7 @@ It allows users to visualize:
 
 ---
 
-## Use Cases
+## Use Cases Examples present in the project
 
 The architecture is designed to support multiple sectors.
 
