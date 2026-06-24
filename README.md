@@ -1,20 +1,24 @@
-# Izarbide
+# Populus
 
-> Digital Twin Asset Management Platform
+> Digital Twin Platform for Human-Centered Environments
 
-Izarbide is a geospatial asset management platform based on Digital Twin technology. Its purpose is to digitally represent outdoor environments and facilitate the monitoring, maintenance, and operation of distributed infrastructure through a single centralized source of information.
+Populus is a geospatial asset management platform based on Digital Twin technology. Its purpose is to create digital representations of real-world environments, connecting physical spaces with structured information to improve monitoring, maintenance, and decision-making.
+
+By creating a bridge between the physical and digital worlds, Populus enables organizations to better understand, operate, and preserve the environments where people live, work, and interact.
 
 ---
 
 ## Project Background
 
-Izarbide originated from a geospatial asset management project I worked on during my time at a software company.
+Populus originated from a geospatial asset management project I worked on during my time at my current research center, within the Data Analysis and Information Management division.
 
-My contribution to that project involved refactoring parts of the frontend architecture to modern React patterns, including the migration to Hooks. While this provided valuable insight into the domain and the technical challenges involved, the project's requirements, architecture, and product decisions were already defined.
+My contribution to that project involved refactoring parts of the frontend architecture to modern React patterns, including the migration to Hooks. While this provided valuable insight into the domain, the technical challenges involved, and the potential applications of the idea, the project's requirements, architecture, and product decisions were already defined.
 
-This project was created as an opportunity to revisit the same problem space from scratch, with full control over the product vision, architecture, and technical decisions. The goal is not to reproduce the original solution, but to rethink and expand the concept into a more flexible Digital Twin platform capable of supporting multiple environments such as urban infrastructure, airport facilities, and natural ecosystems.
+This project was created as an opportunity to revisit the same problem space from scratch, with full control over the product vision, architecture, and technical decisions.
 
-Additionally, the project is part of the Business Plan presented by Tecnun eRacing Formula student team during the 2025–2026 Formula Student season, competing in Formula Student Czech Republic and Formula Student Germany.
+The goal is not to reproduce the original solution, but to rethink and expand the concept into a flexible Digital Twin platform designed around the relationship between people and the environments they use.
+
+Additionally, the project is part of the Business Plan presented by Tecnun eRacing Formula Student Team during the 2025–2026 Formula Student season, competing in Formula Student Czech Republic and Formula Student Germany.
 
 ---
 
@@ -31,34 +35,36 @@ This typically results in:
 * Longer intervention times.
 * Information scattered across multiple systems.
 
+As environments become larger and more complex, organizations require better ways to understand the physical spaces they manage and the elements contained within them.
+
 ---
 
 ## The Solution
 
-Izarbide centralizes asset information within an interactive map that acts as a digital representation of the physical environment.
+Populus provides a digital representation of physical environments through an interactive map-based platform.
 
-The platform is designed around a flexible and scalable asset management architecture, allowing it to adapt to different environments, industries, and operational needs.
+The system is designed around a flexible and scalable asset management architecture, allowing any physical element to be represented as a georeferenced asset with its own properties, condition, history, and maintenance workflow.
 
-Instead of being tied to a specific type of infrastructure, Izarbide provides a generic framework where any physical element can be represented as a georeferenced asset with its own properties, status, history, and maintenance workflow.
+Instead of being limited to a specific industry, Populus acts as a general-purpose framework for creating Digital Twins of different environments.
 
-The objective is to create a reusable foundation capable of generating Digital Twins for different real-world environments.
+The objective is to create a reusable foundation capable of adapting to different scenarios and operational needs.
 
-For the initial development stage, three different scenarios are being explored to demonstrate the adaptability of the platform:
+For the initial development stage, three scenarios are being explored to demonstrate the adaptability of the platform:
 
-- **Urban Environment:** Management of street furniture and public infrastructure.
-- **Airport Infrastructure:** Representation of signage, operational elements, and maintenance assets.
-- **Natural Environment:** Monitoring of biological and environmental assets.
+* **Urban Environment:** Management of public spaces, street furniture, and city infrastructure.
+* **Airport Infrastructure:** Representation of operational elements, signage, and maintenance assets.
+* **Natural Environment:** Monitoring of biological and environmental assets.
 
-However, the same architecture can be extended to other domains, such as:
+However, the same architecture can be extended to many other domains, including:
 
-- Railway infrastructure.
-- Motorsport circuits.
-- Industrial facilities.
-- Smart city applications.
-- Large-scale facilities.
-- Any environment requiring asset location, monitoring, and maintenance management.
+* Railway infrastructure.
+* Motorsport circuits.
+* Industrial facilities.
+* Smart city applications.
+* Large-scale facilities.
+* Any environment requiring asset location, monitoring, and maintenance management.
 
-The platform enables users to know at any time:
+The platform enables users to understand:
 
 * Which assets exist.
 * Where they are located.
@@ -66,7 +72,7 @@ The platform enables users to know at any time:
 * Which defects or incidents affect them.
 * Which maintenance tasks are pending or in progress.
 
-By combining geographic information, asset lifecycle management, and operational workflows, Izarbide provides a reusable foundation for creating Digital Twins of real-world environments.
+By combining geospatial information, asset lifecycle management, and operational workflows, Populus provides the foundation for creating Digital Twins focused on real-world environments and the people who interact with them.
 
 ---
 
@@ -152,7 +158,7 @@ It allows users to visualize:
 
 ---
 
-## Use Cases Examples present in the project
+## Initial Use Cases
 
 The architecture is designed to support multiple sectors.
 
@@ -204,9 +210,11 @@ History & Traceability
 
 ## Future Vision
 
-One of the planned evolution paths for Izarbide is the integration of Computer Vision systems capable of automatically detecting assets from video footage captured by vehicles.
+One of the main evolution paths for Populus is the integration of Computer Vision systems capable of automatically detecting assets from video footage captured by vehicles.
 
-The goal is to partially automate the creation and updating of georeferenced inventories, reducing the need for manual inspections and improving data quality.
+The objective is to partially automate the creation and updating of georeferenced inventories, reducing the need for manual inspections and improving data quality.
+
+The detection system is designed as an independent component capable of feeding the Digital Twin with new information while keeping human validation as part of the workflow.
 
 ---
 
@@ -214,11 +222,14 @@ The goal is to partially automate the creation and updating of georeferenced inv
 
 ### Frontend
 
-* React-Vite Typescript
+* React
+* Vite
+* TypeScript
 
 ### Backend
 
-* Python FastAPI
+* Python
+* FastAPI
 
 ### Database
 
@@ -235,7 +246,9 @@ The goal is to partially automate the creation and updating of georeferenced inv
 
 🚧 Active Development.
 
-Izarbide is a personal project developed both as a technical portfolio project and as a proof of concept for a scalable Digital Twin solution focused on geospatial asset management and infrastructure maintenance.
+Populus is a personal project developed as a technical portfolio project and as a proof of concept for a scalable Digital Twin platform focused on understanding, managing, and improving physical environments.
+
+The project is continuously evolving, exploring new applications and possible integrations between geospatial systems, data management, and intelligent detection technologies.
 
 ---
 
