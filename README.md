@@ -10,15 +10,17 @@ By creating a bridge between the physical and digital worlds, Populus enables or
 
 ## Project Background
 
-Populus originated from a geospatial asset management project I worked on during my time at my current research center, within the Data Analysis and Information Management division.
+Populus originated from my experience working on a geospatial asset management platform during my time at my current research center, within the Data Analysis and Information Management division.
 
-My contribution to that project involved refactoring parts of the frontend architecture to modern React patterns, including the migration to Hooks. While this provided valuable insight into the domain, the technical challenges involved, and the potential applications of the idea, the project's requirements, architecture, and product decisions were already defined.
+My role in that project involved refactoring significant parts of the frontend architecture to modern React patterns, including the migration to Hooks, reviewing the backend and database design, and contributing to the platform's evolution after the refactoring. The refactoring process began in January 2025 in response to several cybersecurity and maintainability issues caused by outdated dependencies, while the project itself concluded in May 2026.
 
-This project was created as an opportunity to revisit the same problem space from scratch, with full control over the product vision, architecture, and technical decisions.
+Working on that platform provided valuable insight into the technical challenges of managing georeferenced infrastructure data, the requirements of large-scale asset management systems, and the practical needs of industrial clients. Although I participated in its technical development, the product vision, architecture, and functional roadmap had already been established, with strategic decisions driven by the project leadership and stakeholders.
 
-The goal is not to reproduce the original solution, but to rethink and expand the concept into a flexible Digital Twin platform designed around the relationship between people and the environments they use.
+Populus was created as an opportunity to revisit the same problem domain from an independent perspective. Rather than reproducing the original solution, this project has been designed and implemented from scratch, with complete freedom over its architecture, technology stack, and long-term vision. No proprietary source code or assets from the original project are included in this repository.
 
-Additionally, the project is part of the Business Plan presented by Tecnun eRacing Formula Student Team during the 2025–2026 Formula Student season, competing in Formula Student Czech Republic and Formula Student Germany.
+The objective is to explore a broader concept of Digital Twins, extending beyond traditional infrastructure inventory management towards a flexible platform capable of modelling the relationships between people, assets, and the environments they interact with. Many of the architectural decisions implemented in Populus reflect ideas and approaches that could not be explored within the constraints of the original project, making this repository both a technical exercise and a personal exploration of alternative solutions.
+
+Additionally, Populus forms part of the Business Plan presented by the Tecnun eRacing Formula Student Team during the 2025–2026 Formula Student season, competing in Formula Student Czech Republic and Formula Student Germany.
 
 ---
 
@@ -210,11 +212,14 @@ History & Traceability
 
 ## Future Vision
 
-One of the main evolution paths for Populus is the integration of Computer Vision systems capable of automatically detecting assets from video footage captured by vehicles.
+One of the main evolution paths for Populus is the integration of Computer Vision systems capable of automatically detecting railway assets from video footage captured by inspection vehicles.
 
-The objective is to partially automate the creation and updating of georeferenced inventories, reducing the need for manual inspections and improving data quality.
+The original project already included a dedicated hardware component responsible for capturing synchronized video, processing image frames, and applying object detection models to automatically identify and geolocate roadside assets using onboard cameras. This approach was conceived to significantly reduce the need for manual inspections while improving the automtion, consistency and quality of georeferenced inventories.
 
-The detection system is designed as an independent component capable of feeding the Digital Twin with new information while keeping human validation as part of the workflow.
+The architecture was also designed to be extensible to additional sensing technologies, such as LiDAR, enabling more accurate asset detection and positioning in the future. However, the current scope of Populus focuses on the software platform and Digital Twin capabilities, and the development of this hardware acquisition and detection system is not planned at this stage.
+
+The detection system is therefore envisioned as an independent component capable of feeding the Digital Twin with new or updated information while keeping human validation as part of the workflow to ensure data reliability. Maybe one day i will look for a partner who can develop that side of the proyect
+
 
 ---
 
@@ -254,4 +259,8 @@ The project is continuously evolving, exploring new applications and possible in
 
 ## License
 
-MIT License
+Copyright © 2026 Unai Alberdi Beloqui. All rights reserved.
+
+Permission is granted to use this software for personal, educational, and non-commercial research purposes only. Commercial use, redistribution, or incorporation into commercial products requires prior written permission from the copyright holder.
+
+(Text writen by IA because im lazy)
